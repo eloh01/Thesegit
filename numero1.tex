@@ -1,0 +1,124 @@
+\documentclass[12pt]{book}
+\usepackage[a4paper,twoside,vmargin=3cm,inner=2.5cm,outer=3.5cm,includeheadfoot]{geometry}
+%include headfoot
+%\usepachage{verbose trad1}% footnotre traditionnelles ibid ibidm op.cit etc
+\usepackage{setspace}%
+\onehalfspacing%
+%
+\usepackage[frenchb]{babel}%
+\usepackage[utf8]{inputenc}%
+\usepackage[T1]{fontenc}%
+%%
+\renewcommand{\thechapter}{\Roman{chapter}}% Bold + capital letter
+\renewcommand{\thesection}{\arabic{section}}%Small capital letter schape +normal
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}} % only italic letter
+\usepackage{fancyhdr}%
+%\fancyhead[LE,CE,RE,LO,CO,RO]% Remet à zero la commande presd-efinit dans la classe book
+%\fancyfoot[C]{\textbf{\thepage}}%
+%\renewcommand{\footrulewidth}{0pt}% supprimela ligne horizontale en bas de page
+%%
+%\usepackage{fancyhdr} deja utilse pis haut 
+%\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+%\renewcommand{\subsection[1]{\markright{\subsection\#1}
+%\lhead[\fancyplain{}{\bfseries\thepage}]%
+%	{\fancyplain{}{\nouppercase{\bfseries\lefmark}}}
+%\rhead[\fancyplain{}{\nouppercase{\bfseries\rightmark}}]%
+%\rhead[\fancyplain{}{\nouppercase{\bfseries\rightmark}}]%
+%\cfoot{}
+\pagestyle{fancy}
+%\fancyhead[LE]{\textbf{leftmark}}%
+%\fancyhead[LE]{\textsc{leftmark}}%
+%\fancyhead[LE]{leftmark}
+%\fancyhead[RO]{rightmark}%
+%
+%\usepackage{tocloft}% package customization functionality to table of contents
+%\renewcommand{\cftchapfont}{\scshape} pourquoi ça ne marche Pas ???%
+%%%
+\usepackage[nottoc]{tocbibind}%to mahe bibliography apperaed in tableoC
+%\usepackage{makeidx}%
+%\makeindex%
+%%
+%\usepackage{titlepage}% Personaliser la page de Titre
+%
+%%%%% Bibliography %%%%%%%%%%
+\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\addbibresource{example.bib} % The filename of the bibliography
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+%
+\usepackage[sonny]{fncychap}
+%\ChNameVar{\Large\sf} 
+%\ChNumVar{\Huge}
+%\ChTitleVar{\Large\sf}
+%\ChRuleWidth{0.5pt}
+%\ChNameUpperCase
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\renewcommand{tableofcontents}{Sommaire}%
+\tableofcontents%
+\newpage
+%\acknomedgement
+%comment inclure des pegs de remerciements et de resumée etc.
+\mainmatter
+\part{\textsc{L'Autre}}%
+\chapter{\textsc{Des cannibales}}%
+\parskip 25pt En préambule de se chapitre nous souhaiterions rappeler dnas un bref pararagaph coment nous allons presenter .... 
+\section{La controverse}%
+blabalaba
+labalbalbalbalabalabiuérgfiéugféfiéugféiuféoueféioegfuoéefhuoég
+\subsection{partir}%
+blalalalal
+\section{Des Tupinamba}%
+ùballalla
+\subsection{les ethipiques}%
+blalallalalllalla
+\subsubsection{la corne de l'afrique}%
+blavlabalbalblla
+\parskip 25pt En préambule de se chapitre nous souhaiterions rappeler dnas un bref pararagaph coment nous allons presenter .... 
+\section{La controverse}%
+blabalaba
+labalbalbalbalabalabiuérgfiéugféfiéugféiuféoueféioegfuoéefhuoég
+feoéuealfaorghiaurgarhfugfiugfiuzgfzigfizufgigfzirgfizufguzirfguizgfuizrgfuizrgiuzrguzrgfizrugizugziugfozrufgzorufhzorugfzurgzrougrzuogrozufgruozfgrzoufgzrofrzofguzorgfruzo
+\subsection{partir}%
+blalalalal
+\section{Des Tupinamba}%
+ùballalla
+\subsection{les ethipiques}%
+blalallalalllall
+\subsubsection{la crone de l'afrique}%
+Il semble qu'en un temps comme le nôtre, où tout procède si rapidement,il y ait peu d'opportunité à offrir au public, comme je le fais, la relation d'un voyage en pays presque inconnu, longtemps après que ce quelquefois comme frappé de péremption par des travaux géographiques\index{géographiques} plus récents, il n'en est point de même d'un voyage entrepris, comme celui-ci, dans le but d'étudier les moeurs, le caractère et les institutionns\index{institutions} d'un des peuples de l'Orient les plus intéressants et les moins connus jusqu'à ce jour Parti pour l'Orient en 1836, j'en suis revenu une dernière fois en 1862, après avoir séjourné plus de douze ans dans la Haute-Éthiopie, et après y avoir été mêlé, comme témoin ou comme\index{comme} acteur, aux événements qui ont attiré sur ce pays l'attention de l'Europe. Dès mon retour en France, sous l'influence des impressions reçues à l'étranger, et pour complaire à un ami, j'ai donné à cette relation une forme écrite. Mais pour avoir le droit de parler d'un pays si dissemblable du nôtre, il ne suffit pas d'y avoir séjourné un long temps et de s'être dénationalisé en quelque sorte, afin de voir de plus près les hommes\index{hommes} et les choses que l'on se propose de faire connaître; lorsque l'on est rentré dans sonmilieu natal, il faut encore, pour se soustraire à tout engouement et épurer ses jugements, écarter, pour un temps, les opinions et les idées dont on s'est imbu à l'étranger, et, reprenant les points de vue ses compatriotes, s'habituer de nouveau à leur manière de penser, avant de leur offrir les fruits d'une expérience acquise dans des conditions si
+différentes de celles qui nous régissent. Ma relation écrite, j'ai don
+\chapter{\textsc{Caraibe}}%
+Aujourd'hui, par suite du redoublement d'activité que les nations
+européennes mettent à étendre leurs relations avec les peuples les plus
+\chapter{la suite}
+reculés de l'Orient, et par suite du retentissement qu'ont eu les
+derniers rapports de l'Angleterre avec Théodore, j'ai pensé que mon
+travail ne serait pas sans utilité. Je viens de le reprendre, et je
+l'offre avec la confiance que donne une tâche fidèlement remplie, et
+avec la réserve qui convient à celui qui, comme moi, entreprend de
+produire un ensemble de faits et de caractères propres à faire juger d
+\part{RDC Mai Mai}%
+rezrzetfez
+\chapter{Katanga}%
+CHAPITRE PREMIER.
+DE KÉNEH À GONDAR.
+Nous donnâmes le signal du départ à nos chameliers. Avant de quitter la
+rive du Nil, mon frère et moi, nous bûmes dans le creux de la main une
+dernière gorgée de son eau bienfaisante, en faisant le voeu de nous
+désaltérer un jour à ses sources mystérieuses, et nous nous éloignâmes
+de Kéneh, en Égypte, le 25 décembre 1837, pour nous engager dans le
+désert.
+
+Un prêtre piémontais, un Anglais et deux domestiques, Domingo et Ali,
+l'un Basque, l'autre Égyptien formaient, avec mon frère et moi, notre
+troupe aventureuse; le plus âgé d'entre nous pouvait avoir vingt-six
+ans, le plus jeune dix-sept.
+
+L'ambition de gagner le martyre avait engagé le prêtre à se mettre de notre voyage. Pendant notre court séjour au Caire, j'avais désiré, pour utiliser mon temps, prendre un maître de langue arabe, et, afin de me renseigner à ce sujet, j'étais allé un soir avec mon frère au couvent des Pères de Terre-Sainte. Le supérieur nous disait qu'il ne savait à qui nous adresser, lorsqu'on frappa discrètement à la porte du parloir.
+
+Voici justement, reprit-il en nous désignant celui qui entrait, le Père Giuseppe Sapeto, de la Congrégation des Lazaristes; il a étudié l'arabe en Syrie, où il vient de séjourner comme missionnaire, et il pourra peut-être nous donner un bon conseil.
+
+Le Père Sapeto était jeune; sa figure avenante prévenait en sa faveur; il s'assit à côté de moi, et notre conversation eut bientôt dépassé le but de ma visite. Je lui appris que nous comptions aller dans la Haute-Éthiopie, dont les lois excluaient, sous peine de mort, tout missionnaire catholique; que plus de deux siècles auparavant ces lois avaient fait de nombreux martyrs parmi les missionnaires jésuites et franciscains[1]; et comme il regrettait de ne pouvoir marcher sur leurs
+{spacing}{1}%
+%\Printindex%
+\end{document}
